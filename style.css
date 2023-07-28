@@ -117,3 +117,47 @@ a {
     font-weight: bold;
     padding-top: 10px;
 }
+
+.section4 {
+    /* display: flex; */
+    padding: 30px;
+    /* justify-content: center; */
+}
+
+.banner {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 80px;
+    justify-content: space-around;
+}
+/* 
+.bleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+} */
+
+/* .bleft p {
+    border: 2px solid red;
+}
+
+.bright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+} */
+
+.banner button {
+    border-radius: 8px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid white;
+}
+
+.banner button:hover{
+    background-color: rgba(192, 192, 255, 0.2);
+}
