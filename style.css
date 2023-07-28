@@ -5,12 +5,15 @@
 
 .header {
     color: aliceblue;
-    background-color: rgb(50,50,131);
+    background-color: #1F2837;
 }
 
 .headtop {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px solid red;
 }
 
 ul {
@@ -21,4 +24,50 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+    border: 2px solid green;
+}
+
+.headbody {
+    display: flex;
+    margin: 100px;
+    border: 2px solid red;
+}
+
+.hright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.back{
+    max-height: 150px;
+    border: 2px solid red;
+    
+}
+
+.signup {
+    background-color: aqua;
+    border-style: none;
+    border-radius: 3px;
+    padding: 9px 25px;
+    background-color: rgb(107, 109, 255);
+    color: #F9FAF8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+.signup:hover {
+    background-color: rgba(104, 104, 255, 0.6);
 }
