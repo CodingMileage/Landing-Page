@@ -13,12 +13,13 @@
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
-    border: 2px solid red;
+    padding: 10px;
 }
 
 ul {
     display: flex;
     list-style: none;
+    gap: 20px;
 }
 
 a {
@@ -35,13 +36,14 @@ a {
 .subtitle {
     font-size: 18px;
     color: #E5E7EB;
-    border: 2px solid green;
+    padding: 5px;
 }
 
 .headbody {
     display: flex;
-    margin: 100px;
-    border: 2px solid red;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
 }
 
 .hright {
@@ -52,7 +54,7 @@ a {
 
 .back{
     max-height: 150px;
-    border: 2px solid red;
+    margin-left: 40px;
     
 }
 
@@ -61,7 +63,7 @@ a {
     border-style: none;
     border-radius: 3px;
     padding: 9px 25px;
-    background-color: rgb(107, 109, 255);
+    background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
     cursor: pointer;
